@@ -1,4 +1,4 @@
-const nestedTypeFilter = require('./');
+const nestedTypeFilter = require('../app/app');
 const expect = require('chai').expect;
 
 function generateDeepObjects(depth) {
