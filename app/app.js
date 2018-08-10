@@ -1,4 +1,4 @@
-module.exports = function nestedTypeFilter(inputObject, typeSpec){
+module.exports = function TypeChecker(inputObject, typeSpec){
     if(inputObject === null){
         return undefined;
     }

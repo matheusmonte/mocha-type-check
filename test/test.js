@@ -1,4 +1,4 @@
-const nestedTypeFilter = require('../app/app');
+const TypeChecker = require('../app/app');
 const expect = require('chai').expect;
 
 function generateDeepObjects(depth) {
@@ -34,9 +34,9 @@ function generateDeepSpec(depth) {
 }
 
 
-describe('nestedTypeFilter', function() {
+describe('TypeChecker', function() {
   function testHelper(inputValue, spec, expected) {
-    const result = nestedTypeFilter(inputValue, spec);
+    const result = TypeChecker(inputValue, spec);
     expect(result).to.deep.equal(expected);
   }
   it('passes values of Number type', function() {
