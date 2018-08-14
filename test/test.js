@@ -1,4 +1,4 @@
-const TypeChecker = require('../app/app');
+const TypeChecker = require('../index');
 const expect = require('chai').expect;
 
 function generateDeepObjects(depth) {

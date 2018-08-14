@@ -1,6 +1,6 @@
 {
   "name": "node-type-check",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Package focused on simple type check to node/javascript applications",
   "main": "index.js",
   "scripts": {
